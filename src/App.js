@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   const [num , setnum] = useState(0);
   const increase = (d)=>{
-    setnum(num+200);
+    setnum(num+100);
   }
   return (
     <div className="App">
